@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mann Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/98c9cbaad9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Logo.png" class="logo">
+            <ul>
+                   <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Contact</a></li>
+                <i class="fa-solid fa-xmark"></i>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+        <div class="header-text">
+            <p>Developer</p>
+            <h1>Hi, I'm <span>Mann</span> Patel<br>Just Coding</h1>
+        </div>
+    </div>
+</div>
+
+<!-- -------------About Section------------------  -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/formal (1).png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam alias odit dolor quod ullam et autem cum quaerat accusamus tempora, maiores culpa saepe aut. Dolores ad laboriosam ducimus repudiandae voluptatibus?</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <!-- Skills Section -->
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages</span><br>Java,Python,SQL,JavaScript, HTML, CSS</li>
+                        <li><span>Development</span><br>Web app Development</li>
+                    </ul>
+                </div>
+                
+                <!-- Experience Section -->
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Java Programming Intern </span><strong>– CodTech IT Solutions (May–June 2025)</strong><br>
+                            • Completed core Java projects and real-time assignments<br>
+                            • Improved problem-solving and development skills through guided exercises
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Education Section -->
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Parul University</span><br>B.Tech in Computer Science (2022–2026)</li>
+                        <li><span>Kendriya Vidyalaya No. 1</span><br>12th CBSE (2022)</li>
+                        <li><span>Kendriya Vidyalaya No. 1</span><br>10th CBSE (2020)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----------Services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-display"></i>
+                <i class="fa-solid fa-file-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed et autem soluta nisi consequuntur aliquam sequi sapiente ipsam tenetur ea quo, laudantium dolorem, ipsum enim atque velit doloribus libero earum.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-user"></i>
+                <h2>system</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed et autem soluta nisi consequuntur aliquam sequi sapiente ipsam tenetur ea quo, laudantium dolorem, ipsum enim atque velit doloribus libero earum.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-face-smile"></i>
+                <h2>nonap</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed et autem soluta nisi consequuntur aliquam sequi sapiente ipsam tenetur ea quo, laudantium dolorem, ipsum enim atque velit doloribus libero earum.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------Projects----------- -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="Images/driver.png" >
+                <div class="layer">
+                    <h3>NoNap Drive</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro laboriosam sint dignissimos, harum nobis accusamus ut et nemo sed minus est consequuntur quia autem non ex corrupti quisquam totam atque!</p>
+                    <a href="#"><i class="fa-solid fa-car-burst"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="Images/wrok.jpeg" >
+                <div class="layer">
+                    <h3>FinHack</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro laboriosam sint dignissimos, harum nobis accusamus ut et nemo sed minus est consequuntur quia autem non ex corrupti quisquam totam atque!</p>
+                    <a href="#"><i class="fa-solid fa-car-burst"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="Images/driver.png" >
+                <div class="layer">
+                    <h3>NoNap Drive</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro laboriosam sint dignissimos, harum nobis accusamus ut et nemo sed minus est consequuntur quia autem non ex corrupti quisquam totam atque!</p>
+                    <a href="#"><i class="fa-solid fa-car-burst"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- -----------contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> patelmann2705@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91-7990126127</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mann27/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Mann275"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/mann.275/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Images/Resume_Mann.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©️ Mann.</p>
+    </div>
+</div>
+
+
+<!-- js Backend -->
+<script src="script.js"></script>
+
+</body>
+</html>
