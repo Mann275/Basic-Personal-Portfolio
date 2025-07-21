@@ -11,20 +11,31 @@
 <div id="header">
     <div class="container">
         <nav>
-            <img src="images/Logo.png" class="logo">
-            <ul>
-                   <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">Contact</a></li>
-                <i class="fa-solid fa-xmark"></i>
+            <img src="Images/Logo-removebg-preview.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
             </ul>
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
         </nav>
-        <div class="header-text">
-            <p>Developer</p>
-            <h1>Hi, I'm <span>Mann</span> Patel<br>Just Coding</h1>
+        <div class="header-content">
+            <div class="header-left">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="Images/formal (1).png" alt="Mann Patel">
+                    </div>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="header-text">
+                    <p>Developer</p>
+                    <h1>Hi, I'm <span>Mann Patel</span><br>Just Coding</h1>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -34,11 +45,11 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="Images/formal (1).png">
+                <img src="Images/Untitled design.png">
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam alias odit dolor quod ullam et autem cum quaerat accusamus tempora, maiores culpa saepe aut. Dolores ad laboriosam ducimus repudiandae voluptatibus?</p>
+                <p>I'm a Computer Science student at Parul University with a passion for full-stack web development, particularly using the MERN stack. I enjoy building responsive, real-world applications and constantly seek to improve my skills through hands-on projects. As part of the CDC Tech Team, I've also contributed to organizing large-scale tech events by managing and optimizing workflows. Always curious and committed to growth, I believe in learning by building.</p>
 
                 <div class="tab-titles">
                     <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -48,7 +59,7 @@
                 <!-- Skills Section -->
                 <div class="tab-contents active-tab" id="skills">
                     <ul>
-                        <li><span>Languages</span><br>Java,Python,SQL,JavaScript, HTML, CSS</li>
+                        <li><span>Languages</span><br>Java, HTML, CSS, JavaScript, React, Express.js, Node.js, MongoDB</li>
                         <li><span>Development</span><br>Web app Development</li>
                     </ul>
                 </div>
@@ -67,8 +78,7 @@
                 <div class="tab-contents" id="education">
                     <ul>
                         <li><span>Parul University</span><br>B.Tech in Computer Science (2022–2026)</li>
-                        <li><span>Kendriya Vidyalaya No. 1</span><br>12th CBSE (2022)</li>
-                        <li><span>Kendriya Vidyalaya No. 1</span><br>10th CBSE (2020)</li>
+                        <li><span>Kendriya Vidyalaya No. 1</span><br>10th CBSE (2020) & 12th CBSE (2022)</li>
                     </ul>
                 </div>
             </div>
@@ -85,20 +95,14 @@
                 <i class="fa-solid fa-display"></i>
                 <i class="fa-solid fa-file-code"></i>
                 <h2>Web Design</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed et autem soluta nisi consequuntur aliquam sequi sapiente ipsam tenetur ea quo, laudantium dolorem, ipsum enim atque velit doloribus libero earum.</p>
-                <a href="#">Learn More</a>
+                <p>I design and develop responsive, user-friendly web interfaces using HTML, CSS, Tailwind, and React. I focus on clean layouts, smooth UX, and modern UI trends.</p>
+                <a href="#contact">Learn More</a>
             </div>
             <div>
                 <i class="fa-solid fa-user"></i>
-                <h2>system</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed et autem soluta nisi consequuntur aliquam sequi sapiente ipsam tenetur ea quo, laudantium dolorem, ipsum enim atque velit doloribus libero earum.</p>
-                <a href="#">Learn More</a>
-            </div>
-            <div>
-                <i class="fa-regular fa-face-smile"></i>
-                <h2>nonap</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed et autem soluta nisi consequuntur aliquam sequi sapiente ipsam tenetur ea quo, laudantium dolorem, ipsum enim atque velit doloribus libero earum.</p>
-                <a href="#">Learn More</a>
+                <h2>Full-Stack Web Development</h2>
+                <p>I build complete web applications using the MERN stack. My focus is on creating scalable, efficient, and maintainable code while ensuring a seamless user experience.</p>
+                <a href="#contact">Learn More</a>
             </div>
         </div>
     </div>
@@ -109,27 +113,27 @@
         <h1 class="sub-title">My Projects</h1>
         <div class="project-list">
             <div class="project">
-                <img src="Images/driver.png" >
+                <img src="Images/Crackit.png" >
                 <div class="layer">
-                    <h3>NoNap Drive</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro laboriosam sint dignissimos, harum nobis accusamus ut et nemo sed minus est consequuntur quia autem non ex corrupti quisquam totam atque!</p>
-                    <a href="#"><i class="fa-solid fa-car-burst"></i></a>
+                    <h3>Crackit.Ai</h3>
+                    <p>A smart placement prep platform built with the MERN stack and Python. It creates AI-based roadmaps, mock tests, and checklists based on student goals and skills. Features real-time chatrooms, progress tracking, and personalized learning paths.</p>
+                    <a href="#"><i class="fa-solid fa-external-link"></i></a>
                 </div>
             </div>
             <div class="project">
                 <img src="Images/wrok.jpeg" >
                 <div class="layer">
                     <h3>FinHack</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro laboriosam sint dignissimos, harum nobis accusamus ut et nemo sed minus est consequuntur quia autem non ex corrupti quisquam totam atque!</p>
-                    <a href="#"><i class="fa-solid fa-car-burst"></i></a>
+                    <p>A finance management tool that helps users track their expenses, set budgets, and achieve their financial goals through data visualization and insights.</p>
+                    <a href="https://github.com/Mann275/MSWD-Fintech-Site2.0"><i class="fa-solid fa-external-link"></i></a>
                 </div>
             </div>
             <div class="project">
                 <img src="Images/driver.png" >
                 <div class="layer">
                     <h3>NoNap Drive</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro laboriosam sint dignissimos, harum nobis accusamus ut et nemo sed minus est consequuntur quia autem non ex corrupti quisquam totam atque!</p>
-                    <a href="#"><i class="fa-solid fa-car-burst"></i></a>
+                    <p>A Python + OpenCV-based system that detects drowsiness using facial landmarks and alerts drivers with a buzzer and SMS. Enhances road safety with real-time responsiveness.</p>
+                    <a href="https://github.com/Mann275/NoNap-Drive"><i class="fa-solid fa-external-link"></i></a>
                 </div>
             </div>
         </div>
@@ -156,15 +160,16 @@
             <div class="contact-right">
                 <form>
                     <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                     <button type="submit" class="btn btn2">Submit</button>
                 </form>
+                <span id="msg"></span>
             </div>
         </div>
     </div>
     <div class="copyright">
-        <p>Copyright ©️ Mann.</p>
+        <p>💖 Copyright ©️ Mann.</p>
     </div>
 </div>
 
