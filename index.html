@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mann Portfolio</title>
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="style.css">
+    <!-- External Libraries -->
     <script src="https://kit.fontawesome.com/98c9cbaad9.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
+<!-- ========================================== -->
+<!-- MAIN PORTFOLIO WEBSITE                    -->
+<!-- ========================================== -->
+
 <body>
+<!-- HEADER SECTION -->
 <div id="header">
     <div class="container">
         <nav>
@@ -33,7 +41,7 @@
             <div class="header-right">
                 <div class="header-text">
                     <p>Developer</p>
-                    <h1>Hi, I'm <span>Mann Patel</span><br>Just Coding</h1>
+                    <h1>Hi, I'm <span>Mann Patel</span>
                 </div>
             </div>
         </div>
@@ -157,24 +165,28 @@
                 <a href="Images/Resume_Mann.pdf" download class="btn btn2">Download CV</a>
             </div>
             
+            <!-- CONTACT FORM -->
             <div class="contact-right">
-                <form>
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <form id="contact-form" name="contact-form">
+                    <input type="text" name="user_name" placeholder="Your Name" required>
+                    <input type="email" name="user_email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    <!-- Message feedback area - above button -->
+                    <span id="msg"></span>
                     <button type="submit" class="btn btn2">Submit</button>
                 </form>
-                <span id="msg"></span>
             </div>
         </div>
     </div>
     <div class="copyright">
-        <p>💖 Copyright ©️ Mann.</p>
+        <p>💖 Mann.</p>
     </div>
 </div>
 
 
-<!-- js Backend -->
+<!-- ========================================== -->
+<!-- JAVASCRIPT FILES                          -->
+<!-- ========================================== -->
 <script src="script.js"></script>
 
 </body>
