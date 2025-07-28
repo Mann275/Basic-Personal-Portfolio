@@ -1,4 +1,4 @@
-# Basic Personal Portfolio
+- # Basic Personal Portfolio
 
 A simple and clean personal portfolio website built with HTML, CSS, and JavaScript only. This project showcases personal information, skills, and projects in a responsive design.
 
@@ -23,9 +23,4 @@ Simply open `index.html` in any web browser to view the portfolio.
 **Mann Patel**
 - GitHub: [Mann275](https://github.com/Mann275)
 - Email: patelmann2705@gmail.com
-- # Personal-Portfolio
-A Basic, responsive portfolio website built with HTML,CSS,JS showcasing skills, projects, and experience.
-
-## Contact
-
-Feel free to reach out for any questions or collaboration opportunities!
+- Feel free to reach out for any questions or collaboration opportunities!
