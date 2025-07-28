@@ -1,6 +1,7 @@
 - # Basic Personal Portfolio
 
 A simple and clean personal portfolio website built with HTML, CSS, and JavaScript only. This project showcases personal information, skills, and projects in a responsive design.
+https://mann275.github.io/Basic-Personal-Portfolio/
 
 ## What is this project?
 
